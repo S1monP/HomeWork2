@@ -144,8 +144,9 @@ public class Main {
                 System.out.println("Задание 10)");
                 System.out.println("Просто наслаждайтесь!");
                 System.out.println("При ax^3 + bх = 0  - х в любом случае равен 0 (кроме отрицательных a и b");
-            default:
                 break;
+            default:
+                System.out.println("Такого режима не существует!!!");
         }
     }
 }
