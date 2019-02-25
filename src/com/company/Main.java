@@ -4,14 +4,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int swt, a, b, year=1794,day= 127;
-        float c ,y;
+        int swt, a, b, year=1794, day= 127;
+        float c, y;
         double sotn, des, edn;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите режим домашнего задания от 1 до 10 ");
         swt = scanner.nextInt();
 
-        switch (swt){
+        switch (swt)
+        {
             case 1:
                 System.out.println("Выделение частного");
                 System.out.println("Введите делимое ");
@@ -143,6 +144,8 @@ public class Main {
                 System.out.println("Задание 10)");
                 System.out.println("Просто наслаждайтесь!");
                 System.out.println("При ax^3 + bх = 0  - х в любом случае равен 0 (кроме отрицательных a и b");
+            default:
+                break;
         }
     }
 }
